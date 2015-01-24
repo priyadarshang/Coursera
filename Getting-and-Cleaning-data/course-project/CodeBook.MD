@@ -1,14 +1,14 @@
 
-Author name: Priyadarshan Gupta
-Data: 24th Jan, 2015
-Description: Code Book for the code submitted for the course project
+**Author name:** Priyadarshan Gupta
+
+**Date:** 24th Jan, 2015
+
+**Description:** Code Book for the code submitted for the course project
 
 ### Data Source
-The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Here are the data for the project: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
 ### Data Set Description
@@ -25,7 +25,7 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 
-### 1. Merge the training and the test sets to create one data set
+**1. Merge the training and the test sets to create one data set**
 
 Following at the set of tables which need to be merged:
 - 'features.txt': List of all features.
@@ -39,14 +39,14 @@ Following at the set of tables which need to be merged:
 
 Assign appropriate column labels and merge all tables to create one data set.
 
-### 2. Extract only the measurements on the mean and standard deviation for each measurement. 
+**2. Extract only the measurements on the mean and standard deviation for each measurement.**
 Create a logical vector that contains TRUE values for the labels, mean and standard deviation columns and FALSE for others. This helps in choosing only the desired columns from the master data set.
 
-### 3. Use descriptive activity names to name the activities in the data set
+**3. Use descriptive activity names to name the activities in the data set**
 Merge data subset with the activityType table to include the descriptive activity names
 
-### 4. Appropriately label the data set with descriptive activity names.
+**4. Appropriately label the data set with descriptive activity names.**
 Do a pattern replacement to clean up the column labels to more meaningful names
 
-### 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+**5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. **
 Create only a data set with the average of each variable for each activity and subject
