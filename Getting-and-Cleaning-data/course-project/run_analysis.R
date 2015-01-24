@@ -112,4 +112,4 @@ tidyData <- aggregate(masterDataNoActivityType[ , names(masterDataNoActivityType
 tidyData <- merge(tidyData, activityType, by='activityId', all.x=TRUE);
 
 # Export the tidyData set to a tabbed delimited file format
-write.table(tidyData, "tidyData.txt", row.names= FALSE, sep='\t');
+write.table(tidyData, "../tidyData.txt", row.names= FALSE, sep='\t');
